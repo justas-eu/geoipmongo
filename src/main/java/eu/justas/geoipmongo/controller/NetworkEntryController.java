@@ -61,7 +61,7 @@ public class NetworkEntryController {
 		CSVReader reader = null;
 
 		try {
-			String importFile = "/Users/justas/Desktop/tmp/GeoLiteCity_20130806/GeoLiteCity-Blocks.csv";
+			String importFile = "/tmp/GeoLiteCity-Blocks.csv";
 			reader = new CSVReader(new InputStreamReader(new FileInputStream(importFile), "Windows-1252"));
 			String[] string;
 			reader.readNext();

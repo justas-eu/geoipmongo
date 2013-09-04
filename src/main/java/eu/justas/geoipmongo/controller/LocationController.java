@@ -30,7 +30,7 @@ public class LocationController {
 		long count = 0;
 
 		try {
-			String importFile = "/Users/justas/Desktop/tmp/GeoLiteCity_20130806/GeoLiteCity-Location.csv";
+			String importFile = "/tmp/GeoLiteCity-Location.csv";
 			reader = new CSVReader(new InputStreamReader(new FileInputStream(importFile), "Windows-1252"));
 
 			String[] string;
