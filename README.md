@@ -1,7 +1,9 @@
 geoipmongo
 ===========
 
-This application is a redeveloped [geoip](https://github.com/justas-eu/geoip "geoip")  version on MongoDB and Spring Data
+This application is a redeveloped [geoip](https://github.com/justas-eu/geoip "geoip")  version on MongoDB and Spring Data. Check
+[demo](http://telesoftas.net:888/geoipmongo "demo") 
+
 The application tells ip address geo location.
 The app is capable of importing maxmind data files in csv format.
 The location table contains ~0.5 million records and network ~2 millions
